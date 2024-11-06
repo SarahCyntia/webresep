@@ -36,7 +36,7 @@ body {
 }
 
 header {
-    background: #525081;
+    background: #f97f7f;
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
@@ -57,7 +57,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #35424a;
+    color: #f9fafa;
     text-decoration: none;
 }
 
@@ -72,11 +72,11 @@ img {
     width: 200px;
     height: 300px;
     right: 140px;
-    top: 240px;
+    top: 350px;
 }
 /* /img styling/ */
 
-.popular-recipes {
+#popular-recipes {
     background-color: #fff;
     text-align: center;
 }
@@ -85,10 +85,12 @@ img {
     font-size: 28px;
     margin-bottom: 30px;
     color:#000000;
+    text-align: center;
 }
 
 
 .recipes-list {
+    text-align: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
@@ -97,7 +99,7 @@ img {
 }
 
 .recipe-item {
-    background-color: #9E7BB5;
+    background-color: hsl(0,100%, 66%);
     margin-bottom: 40px;
     padding: 10px;
     border-radius: 10px;
@@ -117,7 +119,7 @@ img {
 footer {
     text-align: center;
     padding: 4px;
-    background: #525081;
+    background: #f97f7f;
     margin-bottom: 100px;
     color: #ffffff;
     position: relative;
@@ -201,12 +203,12 @@ button:hover {
     transition: .3s ease;
 }
 
-.content2 span{
+/* .content2 span{
     color:#ff7200;
     font-size: 65px;
 }
 
-.content3 button{
+.content3 h2{
     background: #524F81;
     color: white;
     border: none;
@@ -216,18 +218,21 @@ button:hover {
     font-size: 16px;
     margin-left: 20px;
     letter-spacing: 1px;
-}
+} */
 
-.content3 button a{
+/* .content3 h2 a{
     color: white;
     text-decoration: none;
-}
+} */
 
 /* .content2 button:hover{
     background: #524F81;
 } */
-
+#tentangkami h2 {
+    text-align: center;
+}
 .content3 .par2{
+    color: brown;
     padding-left: 20px;
     font-family: Arial;
     letter-spacing: 1px;
@@ -339,30 +344,47 @@ button:hover {
 } */
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+    display: flex;
+    justify-content: center;  /* Mengatur agar dropdown berada di tengah */
+    margin-top: 20px;
+    /* position: relative; 
+    display: inline-block; */
 }
 
 .dropbtn {
-    background-color:#524F81;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f97f7f;  /* Ganti warna sesuai preferensi */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    /* background-color:#f97f7f;
     color: white;
     padding: 12px 16px;
     font-size: 16px;
     border: none;
-    cursor: pointer;
+    cursor: pointer; */
 }
 
 .dropbtn:hover {
-    background-color:#9E7BB5;
+    display: block;
+    /* background-color:#9E7BB5; */
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    /* display: none;
+    position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 1; */
 }
 
 .dropdown-content a {
@@ -370,10 +392,48 @@ button:hover {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    /* color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; */
 }
 
 .dropdown-content a:hover {
-    background-color:#D8BFD8;
+    background-color: #f97f7f;
+    /* background-color: hsl (0, 100%, 90%); */
+}
+
+#Contact h2 {
+    text-align: center;
+}
+.Request a {
+    display: flex;
+    justify-content: center;
+    background-color: #9E7BB5;
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+#Kirim a {
+    display: flex;
+    justify-content: center;
+    background-color: #9E7BB5;
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.email {
+    text-align: center;
+}
+.recipe-item a:hover {
+    color: #000000;
 }
 
 .show {
