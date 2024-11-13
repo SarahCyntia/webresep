@@ -37,7 +37,7 @@ session_start();
             <li>Pastel kering isi abon siap disajikan.</li>
         </ol>
 
-        <button><a href="snack.html">Kembali</a></button>
+        <button><a href="snack.php">Kembali</a></button>
 
     </main>
 </body>

@@ -37,7 +37,7 @@ session_start();
             <li>Masukkan adonan yang telah dibentuk tadi ke dalam penggorengan. Agar tidak mudah gosong, gunakan api kecil.</li>
         </ol>
 
-        <button><a href="snack.html">Kembali</a></button>
+        <button><a href="snack.php">Kembali</a></button>
 
     </main>
 </body>

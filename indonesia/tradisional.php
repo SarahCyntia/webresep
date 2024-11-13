@@ -22,37 +22,37 @@ session_start();
             <div class="resep-card">
                 <h3>Nasi Goreng Gila</h3> <br>
                 <img src="gambar/Resep-Nasgor-Gila.jpg" alt="Nasi Goreng"> <br>
-                <a href="nasi-goreng-gila.html" class="button">Lihat Resep</a>
+                <a href="nasi-goreng-gila.php" class="button">Lihat Resep</a>
             </div>
 
             <div class="resep-card2 ">
                 <h3>Rendang</h3> <br>
                 <img src="gambar/Rendang.jpg" alt="Rendang"> <br>
-                <a href="rendang.html" class="button">Lihat Resep</a>
+                <a href="rendang.php" class="button">Lihat Resep</a>
             </div>
 
             <div class="resep-card3">
                 <h3>Ayam Rica-rica</h3> <br>
                 <img src="gambar/Resep-Ayam-Rica-rica.jpg" alt="Ayam Rica-rica"> <br>
-                <a href="ayam-rica-rica.html" class="button">Lihat Resep</a>
+                <a href="ayam-rica-rica.php" class="button">Lihat Resep</a>
             </div>
 
             <div class="resep-card4">
                 <h3>Gulai Ayam</h3> <br>
                 <img src="gambar/Gulai-Ayam.jpg" alt="Gulai Ayam"> <br>
-                <a href="gulai-ayam.html" class="button">Lihat Resep</a>
+                <a href="gulai-ayam.php" class="button">Lihat Resep</a>
             </div>
 
             <div class="resep-card5">
                 <h3>Binte Bilihuta</h3> <br>
                 <img src="gambar/Binte-Biluhuta.jpg" alt="Binte Bilihuta"> <br>
-                <a href="binte-biluhuta.html" class="button">Lihat Resep</a>
+                <a href="binte-biluhuta.php" class="button">Lihat Resep</a>
             </div>
 
             <div class="resep-card6">
                 <h3>Nasi Padang</h3> <br>
                 <img src="gambar/nasi-padang.jpg" alt="Nasi Padang"> <br>
-                <a href="nasi-padang.html" class="button">Lihat Resep</a>
+                <a href="nasi-padang.php" class="button">Lihat Resep</a>
             </div>
         </section>   
     <!-- <div class="container">

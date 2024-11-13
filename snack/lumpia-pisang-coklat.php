@@ -32,7 +32,7 @@ session_start();
             <li>Angkat lumpia setelah garing dan berubah warna, tiriskan.</li>
         </ol>
 
-        <button><a href="snack.html">Kembali</a></button>
+        <button><a href="snack.php">Kembali</a></button>
     </main>
 </body>
 </html>

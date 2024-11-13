@@ -22,37 +22,37 @@ session_start();
             <div class="resep-card">
                 <h3>Spaghetti-aglio e-olio</h3> <br>
                 <img src="gambar/Resep-Spagetti-aglio-olio.jpg" alt="spaghetti-aglio e-olio"> <br>
-                <a href="spaghetti-aglio e-olio.html" class="button">Lihat Resep</a>
+                <a href="spaghetti-aglio e-olio.php" class="button">Lihat Resep</a>
             </div>
 
             <div class="resep-card2 ">
                 <h3>Macaroni and Cheese</h3> <br>
                 <img src="gambar/macaroni and cheese.jpg" alt="Macaroni and Cheese"> <br>
-                <a href="macaroni-and-cheese.html" class="button">Lihat Resep</a>
+                <a href="macaroni-and-cheese.php" class="button">Lihat Resep</a>
             </div>
 
             <div class="resep-card3">
                 <h3>ramen</h3> <br>
                 <img src="gambar/ramen.jpg" alt="ramen"> <br>
-                <a href="ramen.html" class="button">Lihat Resep</a>
+                <a href="ramen.php" class="button">Lihat Resep</a>
             </div>
 
             <div class="resep-card4">
                 <h3>Chicken Gochujang </h3> <br>
                 <img src="gambar/Korean-Gochujang-Chicken-15.jpg" alt="Chicken Gochujang (ayam goreng korea)"> <br>
-                <a href="chicken-gochujang.html" class="button">Lihat Resep</a>
+                <a href="chicken-gochujang.php" class="button">Lihat Resep</a>
             </div>
 
             <div class="resep-card5">
                 <h3>Tteokbokki 떡볶이 </h3> <br>
                 <img src="gambar/toppoki.jpg" alt="Tteokbokki 떡볶이 "> <br>
-                <a href="Tteokbokki.html" class="button">Lihat Resep</a>
+                <a href="Tteokbokki.php" class="button">Lihat Resep</a>
             </div>
 
             <div class="resep-card6">
                 <h3>Ayam pandan Thailand</h3> <br>
                 <img src="gambar/ayam pandan thailand.jpg.jpeg" alt="Ayam pandan thailand"> <br>
-                <a href="ayam-pandan-thailand.html" class="button">Lihat Resep</a>
+                <a href="ayam-pandan-thailand.php" class="button">Lihat Resep</a>
             </div>
         </section>
         <button><a href="/makanan/LandingPage.php">Kembali</a></button>

@@ -22,37 +22,37 @@ session_start();
             <div class="resep-card">
                 <h3>Pancake Mangga</h3> <br>
                 <img src="gambar/pancake mangga.jpg" alt="Pancake Mangga"> <br>
-                <a href="pancake-mangga.html" class="button">Lihat Resep</a>
+                <a href="pancake-mangga.php" class="button">Lihat Resep</a>
             </div>
 
             <div class="resep-card2 ">
                 <h3>Chocolate Puding</h3> <br>
                 <img src="gambar/chocolate puting.jpg" alt="Chocolate Puding"> <br>
-                <a href="chocolate-puding.html" class="button">Lihat Resep</a>
+                <a href="chocolate-puding.php" class="button">Lihat Resep</a>
             </div>
 
             <div class="resep-card3">
                 <h3>Oreo dessert cup</h3> <br>
                 <img src="gambar/oreo dessert.jpg" alt="Oreo dessert cup"> <br>
-                <a href="oreo-dessert-cup.html" class="button">Lihat Resep</a>
+                <a href="oreo-dessert-cup.php" class="button">Lihat Resep</a>
             </div>
 
             <div class="resep-card4">
                 <h3>Salad Buah</h3> <br>
                 <img src="gambar/salad buah.jpg.jpeg" alt="Salad Buah"> <br>
-                <a href="salad-buah.html" class="button">Lihat Resep</a>
+                <a href="salad-buah.php" class="button">Lihat Resep</a>
             </div>
 
             <div class="resep-card5">
                 <h3>Banana Milk crispy</h3> <br>
                 <img src="gambar/banana milk.jpg" alt="Banan Milk crispy"> <br>
-                <a href="banana-milk-crispy.html" class="button">Lihat Resep</a>
+                <a href="banana-milk-crispy.php" class="button">Lihat Resep</a>
             </div>
 
             <div class="resep-card5">
                 <h3>Souffle Pancake</h3> <br>
                 <img src="gambar/pancake1.jpg" alt="Souffle Pancake"> <br>
-                <a href="pancake.html" class="button">Lihat Resep</a>
+                <a href="pancake.php" class="button">Lihat Resep</a>
             </div>
         </section>
         <button><a href="/makanan/LandingPage.php">Kembali</a></button>

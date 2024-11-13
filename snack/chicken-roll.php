@@ -42,7 +42,7 @@ session_start();
             <li>Potong-potong roll chicken asparagus lalu sajikan dengan sausnya.</li>
         </ol>
 
-        <button><a href="snack.html">Kembali</a></button>
+        <button><a href="snack.php">Kembali</a></button>
     </main>
 </body>
 </html>

@@ -30,7 +30,7 @@ session_start();
             <li>Siap disajikan dangan cocolan saus.</li>
         </ol>
 
-        <button><a href="snack.html">Kembali</a></button>
+        <button><a href="snack.php">Kembali</a></button>
 
     </main>
 </body>

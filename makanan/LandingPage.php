@@ -34,10 +34,10 @@ session_start();
             <span class="arrow">&#9662;</span> <!-- Down arrow -->
         </button>
         <div class="dropdown-content">
-            <a href="/indonesia/tradisional.html">Masakan Indonesia</a>
-            <a href="/internasional/internasional.html">Masakan Internasional</a>
-            <a href="/dissert/dissert.html">Dessert</a>
-            <a href="/snack/snack.html">Snack</a>
+            <a href="/indonesia/tradisional.php">Masakan Indonesia</a>
+            <a href="/internasional/internasional.php">Masakan Internasional</a>
+            <a href="/dissert/dissert.php">Dessert</a>
+            <a href="/snack/snack.php">Snack</a>
         </div>
     </div>
     
