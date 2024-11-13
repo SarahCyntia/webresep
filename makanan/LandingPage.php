@@ -1,3 +1,21 @@
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "web_makanan";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "SELECT*FROM kategori";
+$result = $conn->query($sql);
+
+$conn->close();
+?>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -30,10 +48,16 @@
             <span class="arrow">&#9662;</span>
         </button>
         <div class="dropdown-content">
-            <a href="/Makanan/indonesia/tradisional.php">Masakan Indonesia</a>
-            <a href="/Makanan/internasional/internasional.php">Masakan Internasional</a>
+        <?php
+        while($row = $result->fetch_assoc()) {
+        ?>
+            <a href="../list_resep.php?kategori_nama=<?php echo $row["kategori_nama"]?>&kategori_id=<?php echo $row["kategori_id"]?>"><?php echo $row["kategori_nama"]?></a>
+         <?php } ?>
+            <!-- <a href="/Makanan/indonesia/tradisional.php">Masakan Indonesia</a> -->
+            <!-- <a href="/Makanan/internasional/internasional.php">Masakan Internasional</a>
             <a href="/Makanan/dissert/dissert.php">Dessert</a>
-            <a href="/Makanan/snack/snack.php">Snack</a>
+            <a href="/Makanan/snack/snack.php">Snack</a> -->
+
         </div>
     </div>
 
