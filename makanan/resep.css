@@ -9,7 +9,6 @@ body, h1, h4, ul, ol {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    /* background-color: rgb(245, 182, 182); */
     background-color: #ffa1a1;
     color: #333;
     padding: 20px;
@@ -18,7 +17,7 @@ body {
 main {
     max-width: 800px;
     margin: 0 auto;
-    background-color: #c44646;
+    background-color: #facaca;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
@@ -40,7 +39,7 @@ h1 {
 main {
     max-width: 800px;
     margin: auto;
-    background:#facaca;
+    background: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -135,7 +134,6 @@ button a {
     color: white;
     text-decoration: none;
 }
-
 button a:hover {
     color: black;
 }

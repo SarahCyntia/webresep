@@ -55,7 +55,7 @@ session_start();
             <li>Kemudian, siapkan wajan dan panaskan minyak. Goreng risol mayo dalam minyak panas dengan menggunakan api sedang. Goreng hingga risol mayo matang. Jika sudah, angkat dan tiriskan. Risol mayo telah siap untuk disajikan.</li>
         </ol>
 
-        <button><a href="snack.php">Kembali</a></button>
+        <button><a href="/Makanan/Makanan/LandingPage.php#popular-recipes">Kembali</a></button>
 
     </main>
 </body>

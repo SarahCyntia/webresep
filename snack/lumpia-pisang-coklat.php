@@ -14,8 +14,6 @@ session_start();
     <main>
         <h4>Bahan Bahan:</h4>
         <ol>
-            - kulit limpia <br>
-            - pisan Raja
             <li>Kulit lumpia</li>
             <li>Pisang Raja yang sudah matang, poyong-potong</li>
             <li>meses cokelat</li>

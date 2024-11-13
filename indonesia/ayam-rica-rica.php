@@ -12,7 +12,7 @@ session_start();
 </head>
 <body>
     <main>
-            <h4>Bahan-bahan:</h4>
+            <h4>Bahan bahan:</h4>
             <ol>
                 <li>1 buah tomat potong</li>
                 <li>3 ikat daun kemangi</li>
@@ -20,7 +20,7 @@ session_start();
                 <li>2 batang serai diiris</li>
                 <li>1 ruas jahe digeprek</li>
             </ol> <br>
-            <h4>Bumbu halus:</h4>
+            <h5>Bumbu halus:</h5>
             <ol>
                 <li>10 butir bawang merah</li>
                 <li>5 siung bawang putih</li>

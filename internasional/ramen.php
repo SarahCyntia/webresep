@@ -7,12 +7,12 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resep ramen</title>
+    <title>Resep Ramen</title>
     <link rel="stylesheet" href="resep.css">
 </head>
 <body>
     <main>
-            <h4>Bahan-bahan:</h4>
+            <h4>Bahan bahan:</h4>
             <ol>
                 <li>1 bungkus mi instan rasa kari ayam</li>
                 <li>1 buah sosis</li>   

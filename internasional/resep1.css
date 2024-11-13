@@ -1,20 +1,19 @@
-/* Reset beberapa styling default */
-* {
+/* Reset some default styles */
+body, h1, h4, ul, ol {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Pengaturan umum untuk body */
+/* Set a font for the entire page */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f7f7f7;
-    color: #333;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #ffa1a1;
+    color: #333;
     padding: 20px;
 }
 
-/* Main container styling */
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -23,22 +22,65 @@ main {
     border-radius: 12px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     background-image: linear-gradient(to right, #fff, #f9f9f9);
-    border-left: 5px solid #928e8e; /* Border berwarna hijau sebagai aksen */
+    border-left: 10px solid #c44646; /* Border berwarna hijau sebagai aksen */
 }
 
-/* Heading style */
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #5a2d0c;
+}
+
+/* Main content styling */
+main {
+    max-width: 800px;
+    margin: auto;
+    background: #facaca;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px;
+}
+
 h4 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #2c3e50;
     margin-bottom: 15px;
     text-align: center;
     font-weight: bold;
-    background-color: #626060;
+    background-color: #c44646;
     color: white;
     padding: 5px 0;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+h5 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #c44646;
+    width: 38%;
+    color: white;
+    padding: 5px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* h4 {
+    color: #35424a;
+    margin-bottom: 10px;
+} */
 
 /* Styling untuk daftar bahan-bahan */
 ol {
@@ -71,25 +113,12 @@ li:hover {
     cursor: pointer;
 }
 
-/* Tombol kembali */
-/* button {
-    background-color: #35424a;
-    border: none;
-    padding: 12px 25px;
-    color: white;
-    font-size: 1.1em;
-    cursor: pointer;
-    border-radius: 50px;
-    margin-top: 30px;
-    transition: all 0.3s ease;
-    text-transform: uppercase;
-    font-weight: bold;
-    display: block;
-    margin: 30px auto 0 auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+/* List styles */
+/* ul, ol {
+    margin-left: 20px;
 } */
 
+/* Button styles */
 button {
     background-color: #35424a;
     color: white;
@@ -106,46 +135,14 @@ button a {
     text-decoration: none;
 }
 
-button:hover {
-    background-color: #35424a;
-}
 button a:hover {
     color: black;
 }
 
-/* button a {
-    color: white;
-    text-decoration: none;
-}
-
-button:hover {
-    background-color: #16a085;
-    transform: translateY(-4px); /* Efek naik pada hover 
-} */
-
-/* Styling untuk link di dalam tombol */
-button a {
-    display: inline-block;
-    padding: 10px 20px;
-}
-
-/* Responsiveness untuk layar kecil */
-@media (max-width: 768px) {
-    main {
-        padding: 20px;
-        font-size: 0.9em;
-    }
-
-    h4 {
-        font-size: 1.4em;
-    }
-
-    button {
-        width: 180px;
-        font-size: 1em;
-    }
-
-    ol {
-        margin-left: 15px;
-    }
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
 }

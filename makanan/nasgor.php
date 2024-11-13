@@ -7,7 +7,7 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resep Gudeg</title>
+    <title>Nasi Goreng Gila</title>
     <link rel="stylesheet" href="resep.css">
 </head>
 <body>
@@ -24,7 +24,7 @@ session_start();
                 <li>Kecap manis - 3 sdm</li>
                 <li>Garam – 1/2 sdt</li>
             </ol> <br>
-            <h5>Bumbu halus:</h5>
+            <h4>Bumbu halus:</h4>
             <ol>
                 <li>Bawang merah - 15 siung</li>
                 <li>Bawang putih - 6 siung</li>
@@ -46,7 +46,7 @@ session_start();
                 <li>Gudeg siap disajikan.</li>
             </ol>
 
-            <button><a href="tradisional.php">Kembali</a></button>
+            <button><a href="/Makanan/Makanan/LandingPage.php#popular-recipes">Kembali</a></button>
     </main>
     </main>
 </body>

@@ -12,14 +12,15 @@ session_start();
 </head>
 <body>
     <main>
-        <h4>Bahan Kulit Pancake:</h4>
+        <h4>Bahan bahan:</h4>
+        <h5>Bahan Kulit Pancake:</h5>
         <ol>
             <li>125 gr tepung terigu</li>
             <li>1 butir telur ayam,dikocok lepas</li>
             <li>1/4 std garam</li>
             <li>275 ml susu cair</li>
         </ol><br>
-        <h4>Bahan Isian:</h4>
+        <h5>Bahan Isian:</h5>
         <ol>
             <li>Whipping cream</li>
             <li>Mangga</li>

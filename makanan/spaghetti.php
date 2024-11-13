@@ -24,7 +24,7 @@ session_start();
             <li>Garam - 1 sdt</li>
         </ol>
 
-        <h5>Bahan Taburan:</h5>
+        <h4>Bahan Taburan:</h4>
         <ol>
             <li>Parsley cincang segar / kering - secukupnya</li>
             <li>Keju parmesan segar / bubuk - secukupnya</li>
@@ -41,7 +41,7 @@ session_start();
             <li>Tambahkan kaldu bubuk, koreksi rasa. Matikan kompor.</li>
             <li>Spaghetti Aglio Oglio siap dinikmati bersama dengan bahan pelengkapnya.</li>
         </ol>
-        <button><a href="internasional.php">Kembali</a></button>
+        <button><a href="/Makanan/Makanan/LandingPage.php#popular-recipes">Kembali</a></button>
     </main>
 </body>
 </html>

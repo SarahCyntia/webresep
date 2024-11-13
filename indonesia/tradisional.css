@@ -212,6 +212,7 @@ img {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     background-color: #c44646;
+    border-radius: 8px;
 }
 
 button {

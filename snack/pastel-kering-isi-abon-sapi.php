@@ -14,13 +14,13 @@ session_start();
     <main>
         <h4>Bahan Bahan:</h4>
         <ol>
-            - 300 gram tepung terigu <br>
-            - 1 sdm tepung sagu <br>
-            - 1 butir telur yang sudah dikocok <br>
-            - 100 gram margarin <br>
-            - garam secukupnya <br>
-            - 200 gram abon sapi <br>
-            - minyak secukupnya <br>
+            <li>300 gram tepung terigu</li> 
+            <li>1 sdm tepung sagu</li>
+            <li>1 butir telur yang sudah dikocok</li> 
+            <li>100 gram margarin</li> 
+            <li>garam secukupnya</li>
+            <li>200 gram abon sapi</li>
+            <li>minyak secukupnya</li>
         </ol>
 
         <h4>Cara Membuat:</h4>

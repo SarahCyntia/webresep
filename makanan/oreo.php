@@ -13,7 +13,7 @@ session_start();
 <body>
     <main>
         <h4>Bahan bahan:</h4>
-        <h5>Lapisan 1:</h5>
+        <h4>Lapisan 1:</h4>
         <ol>
             <li>800 ml susu cair</li>
             <li>1 bungkus agar-agar warna putih</li>
@@ -22,7 +22,7 @@ session_start();
             <li>100 gr dark chocolate compound</li>
             <li>2 butir kuning telur</li>
         </ol><br>
-        <h5>Lapisan 2:</h5>
+        <h4>Lapisan 2:</h4>
         <ol>
             <li>800 ml susu cair</li>
             <li>1,5 bungkus agar-agar warna putih</li>
@@ -30,7 +30,7 @@ session_start();
             <li>100 gr white chocolate compound</li>
             <li>2 kunign telur</li>
         </ol><br>
-        <h5>Bahan Vla:</h5>
+        <h4>Bahan Vla:</h4>
         <ol>
             <li>500 ml susu cair</li>
             <li>80 gr gula pasir</li>
@@ -47,7 +47,7 @@ session_start();
             <li>Masukkan ke dalam kulkas. Diamkan hingga mengerasl</li>
             <li>Vla: Masukkan susu cair dan gula pasir ke dalam panci lalu masak hingga mendidih sambil terus diaduk. Larutkan maizena dengan sedikit air, kemudian tuang ke dalam panci. Aduk cepat hingga meletup-letup. Kemudian saring supaya vla benar-benar lembut.</li>
         </ol>
-        <button><a href="dissert.php">Kembali</a></button>
+        <button><a href="/Makanan/Makanan/LandingPage.php#popular-recipes">Kembali</a></button>
     </main>
 </body>
 </html>

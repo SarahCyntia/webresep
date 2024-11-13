@@ -12,7 +12,7 @@ session_start();
 </head>
 <body>
     <main>
-        <h4>Bahan-bahan:</h4>
+        <h4>Bahan bahan:</h4>
         <ol>
             <li>200 gr makaroni</li>
             <li>200 ml susu cair</li>

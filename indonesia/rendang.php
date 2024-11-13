@@ -12,7 +12,7 @@ session_start();
 </head>
 <body>
     <main>
-        <h4>Bahan-bahan:</h4>
+        <h4>Bahan bahan:</h4>
         <ol>
            <li>1 kg daging sapi</li>
            <li>3 butir kelapa, diambil santan kental dan santan encernya</li>
@@ -22,7 +22,7 @@ session_start();
            <li>100 ml minyak goreng</li>
            <li>5 gram garam</li>
         </ol>
-        <h4>Bumbu Halus:</h4>
+        <h5>Bumbu Halus:</h5>
         <ol>
             <li>60 gram bawang  merah</li>
             <li>50 gram bawang putih</li>

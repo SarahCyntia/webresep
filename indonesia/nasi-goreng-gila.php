@@ -12,7 +12,7 @@ session_start();
 </head>
 <body>
     <main>
-            <h4>Bahan-bahan:</h4>
+            <h4>Bahan bahan:</h4>
             <ol>
                 <li>Nasi putih – 800 gram</li>
                 <li>Dada ayam, rebus lalu suwir-suwir – 100 gram</li>
@@ -31,7 +31,7 @@ session_start();
                 <li>Kecap manis – 2 sdm</li>
                 <li>Minyak untuk menumis – 4 sdt</li>
             </ol> <br>
-            <h4>Bumbu halus:</h4>
+            <h5>Bumbu halus:</h5>
             <ol>
                 <li>Bawang merah – 5 siung</li>
                 <li>Bawang putih – 3 siung</li>

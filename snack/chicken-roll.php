@@ -22,7 +22,7 @@ session_start();
             - Minyak Goreng secukupnya <br>
         </ol>
 
-        <h4>Bahan Saus:</h4>
+        <h5>Bahan Saus:</h5>
         <ol>
             - 1/2 buah Bawang Bombay, potong dadu <br>
             - 3 siung Bawang Putih <br>

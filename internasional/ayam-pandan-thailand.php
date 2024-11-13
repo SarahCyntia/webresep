@@ -7,19 +7,19 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resep Ayam Pandan thailand</title>
-    <link rel="stylesheet" href="resep.css">
+    <title>Resep Ayam Pandan Thailand</title>
+    <link rel="stylesheet" href="resep1.css">
 </head>
 <body>
     <main>
-            <h4>Bahan-bahan:</h4>
+            <h4>Bahan bahan:</h4>
             <ol>
                 <li>500 gr Paha ayam tanpa tulang</li>
                 <li>2 pcs Akar daun ketumbar</li>   
                 <li>16 lembar Daun pandan</li>
                 <li>1 liter Minyak untuk menggoreng</li>
             </ol> <br>
-            <h4>Bahan Marinasi:</h4>
+            <h5>Bahan Marinasi:</h5>
             <ol>
                 <li>2 btg Sereh (bagian putih)</li>
                 <li>3 siung Bawang putih</li>
@@ -31,7 +31,7 @@ session_start();
                 <li>1 sdm Saus tiram</li>
                 <li>2 sdm Santan kental</li>
             </ol><br>
-            <h4>Bahan sambal Prik Nam Pla:</h4>
+            <h5>Bahan sambal Prik Nam Pla:</h5>
             <ol>
                 <li>5 buah Cabai rawit merah (iris)</li>
                 <li>5 buah Cabai rawit hijau (iris)</li>

@@ -12,7 +12,7 @@ session_start();
 </head>
 <body>
     <main>
-        <h4>Bahan-bahan:</h4>
+        <h4>Bahan bahan:</h4>
         <ol>
            <li>1300ml air, untuk merebus</li>
            <li>3 buah jagung manis, pipil</li>
@@ -23,7 +23,7 @@ session_start();
            <li>1 sdt royco kaldu ayam</li>
            <li>60g daun kemangi</li>
         </ol>
-        <h4>Bumbu Halus:</h4>
+        <h5>Bumbu Halus:</h5>
         <ol>
             <li>8 butir bawang merah</li>
             <li>7 buah cabai merah</li>

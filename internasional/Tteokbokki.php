@@ -12,7 +12,7 @@ session_start();
 </head>
 <body>
     <main>
-            <h4>Bahan-bahan:</h4>
+            <h4>Bahan bahan:</h4>
             <ol>
                 <li>2 pack Tteokbokki instant</li>
                 <li>6 buah sosis</li>   
@@ -22,7 +22,7 @@ session_start();
                 <li>1/2 buah bawang bombay, iris kasar</li>
                 <li>2 batang daun bawang, iris serong</li>
             </ol> <br>
-            <h4>Bahan Saus:</h4>
+            <h5>Bahan Saus:</h5>
             <ol>
                 <li>3 sdm gochujang</li>
                 <li>1 sdm kecap asin</li>

@@ -9,7 +9,7 @@ body, h1, h4, ul, ol {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f7f7f7;
+    background-color: #ffa1a1;
     color: #333;
     padding: 20px;
 }
@@ -22,7 +22,7 @@ main {
     border-radius: 12px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     background-image: linear-gradient(to right, #fff, #f9f9f9);
-    border-left: 10px solid #928e8e; /* Border berwarna hijau sebagai aksen */
+    border-left: 10px solid #c44646; /* Border berwarna hijau sebagai aksen */
 }
 
 /* Header styles */
@@ -39,7 +39,7 @@ h1 {
 main {
     max-width: 800px;
     margin: auto;
-    background: white;
+    background: #facaca;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -51,12 +51,26 @@ section {
 }
 
 h4 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #2c3e50;
     margin-bottom: 15px;
     text-align: center;
     font-weight: bold;
-    background-color: #626060;
+    background-color: #c44646;
+    color: white;
+    padding: 5px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h5 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #c44646;
+    width: 25%;
     color: white;
     padding: 5px 0;
     border-radius: 8px;
@@ -106,7 +120,7 @@ li:hover {
 
 /* Button styles */
 button {
-    background-color: #35424a;
+    background-color: #c44646;
     color: white;
     border: none;
     border-radius: 5px;
@@ -121,9 +135,6 @@ button a {
     text-decoration: none;
 }
 
-button:hover {
-    background-color: #35424a;
-}
 button a:hover {
     color: black;
 }

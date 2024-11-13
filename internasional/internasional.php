@@ -32,7 +32,7 @@ session_start();
             </div>
 
             <div class="resep-card3">
-                <h3>ramen</h3> <br>
+                <h3>Ramen</h3> <br>
                 <img src="gambar/ramen.jpg" alt="ramen"> <br>
                 <a href="ramen.php" class="button">Lihat Resep</a>
             </div>

@@ -13,18 +13,6 @@ body {
     max-width: fit-content;
 }
 
-/* .navbar{
-    width: 1200px;
-    height: 75px;
-    margin: auto;
-}
-
-.icon{
-    width: 200px;
-    float: left;
-    height: 70px;
-} */
-
 .logo{
     color: #D8BFD8;
     font-size: 35px;
@@ -42,7 +30,7 @@ header {
     text-align: center;
 }
 header nav {
-    display: flex; /*biar navbar horizontal*/
+    display: flex;
     justify-content: flex-end;
     gap: 4rem;
     font-weight: 600;
@@ -50,34 +38,11 @@ header nav {
 header nav a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
 }
 header nav a:hover {
     color: rgb(94, 29, 29);
-
-/* nav ul {
-    text-decoration: none;
-    color: white;
-    letter-spacing: 0.1rem;
-    list-style: none;
-    padding: 0;
-    text-align: center;
 }
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #f9fafa;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: var(--color-red); */
-}
-/* nav style */
 
 
 img {
@@ -87,10 +52,9 @@ img {
     right: 140px;
     top: 250px;
 }
-/* /img styling/ */
 
 #popular-recipes {
-    background-color: #ffffff;
+    background-color: #f5a0a0;
     text-align: center;
 }
 
@@ -105,6 +69,7 @@ img {
 .recipes-list {
     text-align: center;
     display: grid;
+    color: #f97f7f;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     margin-left: 20px;
@@ -130,48 +95,102 @@ img {
 }
 
 footer {
-    text-align: center;
-    padding: 4px;
-    background: #f97f7f;
-    margin-bottom: 100px;
-    color: #ffffff;
-    position: relative;
-    top: 100px;
-    bottom: 0;
-    width: 100%;
-}
-
-/* h2 {
-    color: #35424a;
-}
-
-h3 {
-    color: #333;
-} */
-
-/* img{
-    max-width: 20%;
-    max-height: 20%;
-    right: 30px;
-} */
-/* button {
-    background: #35424a;
+    background-color: #f97f7f; /* Warna latar belakang footer (sesuai tema makanan) */
     color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-container div {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+}
+
+.footer-logo h2 {
+    font-size: 36px;
+    font-family: 'Times New Roman', serif;
+    margin-bottom: 10px;
+}
+
+.footer-logo p {
     font-size: 16px;
+    font-style: italic;
 }
 
-button a {
-    color: white;
+.footer-nav h3, .footer-contact h3, .footer-social h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-nav ul li {
+    margin-bottom: 10px;
+}
+
+.footer-nav ul li a {
     text-decoration: none;
+    color: white;
+    font-weight: 500;
 }
 
-button:hover {
-    background: #2a2f35;
-} */
+.footer-nav ul li a:hover {
+    color: #f6e96b; /* Warna hover untuk link menu */
+}
+
+.footer-contact p {
+    margin: 10px 0;
+}
+
+.footer-social {
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.social-icon {
+    background-color: #fff;
+    color: #f97f7f;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #f6e96b;
+    color: white;
+}
+
+.footer-bottom {
+    background-color: #982b1c; /* Warna footer bagian bawah */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
 
 .content2{
     width: 1200px;
@@ -216,31 +235,6 @@ button:hover {
     transition: .3s ease;
 }
 
-/* .content2 span{
-    color:#ff7200;
-    font-size: 65px;
-}
-
-.content3 h2{
-    background: #524F81;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-left: 20px;
-    letter-spacing: 1px;
-} */
-
-/* .content3 h2 a{
-    color: white;
-    text-decoration: none;
-} */
-
-/* .content2 button:hover{
-    background: #524F81;
-} */
 #tentangkami h2 {
     text-align: center;
 }
@@ -252,116 +246,11 @@ button:hover {
     line-height: 30px;
 }
 
-/* Import Google Font - Poppins */
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif; 
-}
-
-.wrapper {
-    width: 370px;
-    margin: 130px auto 0;
-}
-
-.select-btn, .options li {
-    display: flex;
-    cursor: pointer;
-    align-items: center;
-}
-
-.select-btn {
-    height: 65px;
-    font-size: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    border-radius: 7px;
-    background: #fff;
-}
-
-.select-btn i {
-    font-size: 31px;
-    transition: transform 0.3s linear;
-}
-
-.wrapper.active .select-btn i {
-    transform: rotate(-180deg);
-}
-
-.content{
-    padding: 20px;
-    margin-top: 15px;
-    border-radius: 7px;
-    background: #fff;
-    /* box-shadow: #000000;
-    text-shadow:#982B1C; 
-} */
-
-/* .wrapper.active .content {
-    display: block;
-} */ 
-
-/* .content .search {
-    position: relative;
-} */
-
-/* .search i {
-    left: 15px;
-    line-height: 53px;
-    position: absolute;
-}
-
-.search input{
-    height: 53px;
-    width: 100%;
-    outline: none;
-    font-size: 17px;
-    border-radius: 5px;
-    padding: 0 15px 0 43px;
-    border: 1px solid #b3b3b3;
-} */
-
-/* .content .options {
-    margin-top: 10px;
-    max-height: 250px;
-    overflow-y: auto;
-}
-
-.options::-webkit-scrollbar{
-    width:7px;
-}
-
-.options::-webkit-scrollbar-track{
-    background: #f1f1f1;
-    border-radius: 25px;
-}
-
-.options::-webkit-scrollbar-thumb {
-    background: #ccc;
-    border-radius: 25px;
-}
-
-.options li {
-    height: 50px;
-    padding: 0 13px;
-    font-size: 21px;
-    border-radius: 5px;
-}
-
-.options li:hover {
-    background: rgb(255, 202, 255);
-} */
 
 .dropdown {
     display: flex;
     justify-content: center;  /* Mengatur agar dropdown berada di tengah */
     margin-top: 20px;
-    /* position: relative; 
-    display: inline-block; */
 }
 
 .dropbtn {
@@ -372,16 +261,12 @@ button:hover {
     color: white;
     border: none;
     border-radius: 4px;
-    /* background-color:#f97f7f;
-    color: white;
-    padding: 12px 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer; */
+    
 }
 
 .dropbtn:hover {
     display: block;
+    color: rgb(94, 29, 29);
     /* background-color:#9E7BB5; */
 }
 
@@ -392,12 +277,7 @@ button:hover {
     min-width: 160px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    /* display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1; */
+
 }
 
 .dropdown-content a {
@@ -405,14 +285,12 @@ button:hover {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    /* color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block; */
+    
 }
 
 .dropdown-content a:hover {
     background-color: #f97f7f;
+    color: white;
     /* background-color: hsl (0, 100%, 90%); */
 }
 
@@ -455,4 +333,19 @@ button:hover {
 
 .arrow {
     margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-container div {
+        margin-bottom: 20px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
 }

@@ -12,7 +12,7 @@ session_start();
 </head>
 <body>
     <main>
-        <h4>Bahan-bahan:</h4>
+        <h4>Bahan bahan:</h4>
         <ol>
            <li>1300 ml air, untuk merebus</li>
            <li>3 buah jagung manis, pipil</li>
@@ -24,7 +24,7 @@ session_start();
            <li>3 gelas (750 ml) santan</li>
            <li>Garam dan gula pasir secukupnya</li>
         </ol>
-        <h4>Bumbu Halus:</h4>
+        <h5>Bumbu Halus:</h5>
         <ol>
             <li>8 buah cabai keriting (sesuai selera)</li>
             <li>8 butir bawang merah</li>

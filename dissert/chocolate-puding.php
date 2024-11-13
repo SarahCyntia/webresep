@@ -13,7 +13,7 @@ session_start();
 <body>
     <main>
         <h4>Bahan bahan:</h4>
-        <h4>Lapisan 1:</h4>
+        <h5>Lapisan 1:</h5>
         <ol>
             <li>800 ml susu cair</li>
             <li>1 bungkus agar-agar warna putih</li>
@@ -22,7 +22,7 @@ session_start();
             <li>100 gr dark chocolate compound</li>
             <li>2 butir kuning telur</li>
         </ol><br>
-        <h4>Lapisan 2:</h4>
+        <h5>Lapisan 2:</h5>
         <ol>
             <li>800 ml susu cair</li>
             <li>1,5 bungkus agar-agar warna putih</li>
@@ -30,7 +30,7 @@ session_start();
             <li>100 gr white chocolate compound</li>
             <li>2 kunign telur</li>
         </ol><br>
-        <h4>Bahan Vla:</h4>
+        <h5>Bahan Vla:</h5>
         <ol>
             <li>500 ml susu cair</li>
             <li>80 gr gula pasir</li>

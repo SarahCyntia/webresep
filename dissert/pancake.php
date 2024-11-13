@@ -7,12 +7,13 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Souffle Pancake </title>
+    <title>Resep Souffle Pancake </title>
     <link rel="stylesheet" href="resep.css">
 </head>
 <body>
     <main>
-        <h4>Bahan Kulit Pancake:</h4>
+        <h4>Bahan Bahan:</h4>
+        <h5>Bahan Kulit Pancake:</h5>
         <ol>
             <li>2 butir telur</li>
             <li>4 sdm tepung terigu</li>

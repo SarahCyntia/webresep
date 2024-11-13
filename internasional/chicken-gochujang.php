@@ -12,7 +12,7 @@ session_start();
 </head>
 <body>
     <main>
-            <h4>Bahan-bahan:</h4>
+            <h4>Bahan bahan:</h4>
             <ol>
                 <li>10 buah sayap ayam</li>
                 <li>75 gr tepung terigu</li>   
@@ -22,14 +22,14 @@ session_start();
                 <li>2 sdm jagung rebus</li>
                 <li>300 ml air</li>
             </ol> <br>
-            <h4>Bahan Marinasi:</h4>
+            <h5>Bahan Marinasi:</h5>
             <ol>
                 <li>1/2 buah jeruk lemon (sy jeruk nipis)</li>
                 <li>1/2 sdt garam</li>
                 <li>1 sdm garlic powder</li>
                 <li>1 sdm paprika powder</li>
             </ol><br>
-            <h4>Bahan Saus:</h4>
+            <h5>Bahan Saus:</h4>
             <ol>
                 <li>3 siung bawang putih (bisa memakai bubuk)</li>
                 <li>2 cm jahe</li>
