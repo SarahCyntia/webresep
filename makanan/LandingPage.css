@@ -38,11 +38,24 @@ body {
 header {
     background: #f97f7f;
     color: #ffffff;
-    padding: 20px 0;
+    padding: 20px 30px 20px 40px;
     text-align: center;
 }
+header nav {
+    display: flex; /*biar navbar horizontal*/
+    justify-content: flex-end;
+    gap: 4rem;
+    font-weight: 600;
+}
+header nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.2rem;
+}
+header nav a:hover {
+    color: rgb(94, 29, 29);
 
-nav ul {
+/* nav ul {
     text-decoration: none;
     color: white;
     letter-spacing: 0.1rem;
@@ -62,22 +75,22 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: var(--color-red);
+    color: var(--color-red); */
 }
 /* nav style */
 
 
 img {
     position: absolute;
-    width: 200px;
-    height: 300px;
+    width: 270px;
+    height: 370px;
     right: 140px;
-    top: 350px;
+    top: 250px;
 }
 /* /img styling/ */
 
 #popular-recipes {
-    background-color: #fff;
+    background-color: #ffffff;
     text-align: center;
 }
 
