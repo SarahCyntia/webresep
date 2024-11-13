@@ -34,10 +34,10 @@ session_start();
             <span class="arrow">&#9662;</span> <!-- Down arrow -->
         </button>
         <div class="dropdown-content">
-            <a href="/indonesia/tradisional.php">Masakan Indonesia</a>
-            <a href="/internasional/internasional.php">Masakan Internasional</a>
-            <a href="/dissert/dissert.php">Dessert</a>
-            <a href="/snack/snack.php">Snack</a>
+            <a href="/Makanan/indonesia/tradisional.php">Masakan Indonesia</a>
+            <a href="/Makanan/internasional/internasional.php">Masakan Internasional</a>
+            <a href="/Makanan/dissert/dissert.php">Dessert</a>
+            <a href="/Makanan/snack/snack.php">Snack</a>
         </div>
     </div>
     
@@ -66,19 +66,19 @@ session_start();
             <h2>Resep Populer Hari Ini</h2>
             <div class="recipes-list">
                 <div class="recipe-item">
-                    <h3><a href="/indonesia/nasi-goreng-gila.html">Nasi Gila</a></h3>
+                    <h3><a href="/Makanan/indonesia/nasi-goreng-gila.php">Nasi Gila</a></h3>
                     <!-- <button class="favorite-btn" onclick="addToFavorites('Nasi Gila')">Tambah ke Favorit</button> -->
                 </div>
                 <div class="recipe-item">
-                    <h3><a href="/internasional/spaghetti-aglio e-olio.html">Spaghetti Aglio e Olio</a></h3>
+                    <h3><a href="/Makanan/internasional/spaghetti-aglio e-olio.php">Spaghetti Aglio e Olio</a></h3>
                     <!-- <button class="favorite-btn" onclick="addToFavorites('Spaghetti Aglio e Olio')">Tambah ke Favorit</button> -->
                 </div>
                 <div class="recipe-item">
-                    <h3><a href="/dissert/oreo-dessert-cup.html">Oreo Dessert</a></h3>
+                    <h3><a href="/Makanan/dissert/oreo-dessert-cup.php">Oreo Dessert</a></h3>
                     <!-- <button class="favorite-btn" onclick="addToFavorite('Oreo Dessert')">Tambah ke Favorit</button> -->
                 </div>
                 <div class="recipe-item">
-                    <h3><a href="/snack/risol-mayo.html">Risol Mayo</a></h3>
+                    <h3><a href="/Makanan/snack/risol-mayo.php">Risol Mayo</a></h3>
                     <!-- <button class="favorite-btn" onclick="addToFavorites('Risol Mayo')">Tambah ke Favorit</button> -->
                 </div>
             </div>

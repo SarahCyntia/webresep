@@ -68,7 +68,7 @@ session_start();
             <div class="img3"></div>
     </div> -->
     
-    <button><a href="/makanan/LandingPage.php">Kembali</a></button>
+    <button><a href="/makanan/Makanan/LandingPage.php">Kembali</a></button>
     </main>
 </body>
 </html>

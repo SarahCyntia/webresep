@@ -8,6 +8,7 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resep Oreo Dessert Cup</title>
+    <link rel="stylesheet" href="resep.css">
 </head>
 <body>
     <main>
