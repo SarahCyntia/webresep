@@ -22,24 +22,39 @@ $conn->close();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resep Macaroni and Cheese</title>
+    <title>Resep Makanan</title>
     <link rel="stylesheet" href="resep.css">
 </head>
 <body>
     <main>
-        <h4></h4>
-<ol>
-     <li><?php echo $_GET["nama_resep"]?></li>
-     </ol>
-        <h4>Cara Membuat:</h4>
+            <h4>Bahan-bahan</h4>
         <ol>
-        <?php
-        while($row = $result->fetch_assoc()) {
-        ?>
-            <li><?php echo $row["cara_membuat"]?></li>
-        <?php } ?>
+            <?php
+            while ($row = $result->fetch_assoc()) {
+                ?>
+                <?php echo $row["bahan_bahan_resep"] ?>
+            </ol>
+            <h4>Bumbu Halus</h4>
+            <ol>
+                <?php echo $row["bumbu_halus_resep"] ?>
+            </ol>
+            <h4>Bahan Marinasi</h4>
+            <ol>
+                <?php echo $row["bahan_marinasi"] ?>
+            </ol>
+            <h4>Bahan Saus</h4>
+            <ol>
+                <?php echo $row["bahan_saus"] ?>
+            </ol>
+            <h4>Cara Membuat</h4>
+            <ol>
+                <?php echo $row["cara_membuat"] ?>
+            <?php } ?>
         </ol>
-        <button><a href="internasional.php">Kembali</a></button>
+        <button><a href="http://localhost/makanan/list_resep.php?kategori_nama=Makanan%20Internasional&kategori_id=2">Kembali</a></button>
+        <!-- <button><a href="http://localhost/makanan/list_resep.php?kategori_nama=Masakan%20Indonesia&kategori_id=1">Kembali</a></button> -->
+        </main>
+        </main>
     </main>
 </body>
 </html>

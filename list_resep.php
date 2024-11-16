@@ -75,7 +75,7 @@ $conn->close();
                 <a href="ayam-pandan-thailand.php" class="button">Lihat Resep</a>
             </div> -->
         </section>
-        <button><a href="/makanan/LandingPage.php">Kembali</a></button>
+        <button><a href="/makanan/Makanan/LandingPage.php">Kembali</a></button>
    
      
     <!-- <div class="container">
