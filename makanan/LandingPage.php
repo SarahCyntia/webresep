@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -14,7 +14,7 @@ $sql = "SELECT*FROM kategori";
 $result = $conn->query($sql);
 
 $conn->close();
-?>
+?> -->
 
 <!DOCTYPE html>
 <html lang="id">

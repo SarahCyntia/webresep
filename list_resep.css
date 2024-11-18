@@ -216,7 +216,7 @@ img {
 }
 
 button {
-    background-color: #35424a;
+    background-color: #c44646;
     color: white;
     border: none;
     border-radius: 5px;
@@ -232,7 +232,7 @@ button a {
 }
 
 button:hover {
-    background-color: #35424a;
+    background-color: #c44646;
 }
 
 button a:hover {

@@ -34,7 +34,7 @@ $conn->close();
                 ?>
                 <?php echo $row["bahan_bahan_resep"] ?>
             </ol>
-            <h4>Bumbu Halus</h4>
+            <!-- <h4>Bumbu Halus</h4>
             <ol>
                 <?php echo $row["bumbu_halus_resep"] ?>
             </ol>
@@ -45,7 +45,7 @@ $conn->close();
             <h4>Bahan Saus</h4>
             <ol>
                 <?php echo $row["bahan_saus"] ?>
-            </ol>
+            </ol> -->
             <h4>Cara Membuat</h4>
             <ol>
                 <?php echo $row["cara_membuat"] ?>
