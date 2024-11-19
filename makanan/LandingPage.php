@@ -14,7 +14,17 @@ $sql = "SELECT*FROM kategori";
 $result = $conn->query($sql);
 
 $conn->close();
-?> -->
+
+
+// require 'functions.php';
+// $resep = query("SELECT * FROM resep");
+
+//tombol cari ditekan
+// if( isset($_POST["cari"]) ) {
+//     $resep = cari($_POST["keyword"]);
+
+// }
+// ?> -->
 
 <!DOCTYPE html>
 <html lang="id">
@@ -35,10 +45,18 @@ $conn->close();
         </nav>
         <h2>Mau masak apa hari ini?</h2>
 
-        <form action="">
+        <form action="" method="post">
+
+            <input type="text" name="keyword" size="40" autofocus placeholder="masukan keyword pencarian..." autocomplete="off">
+            <button type="submit" name="cari"> Cari!</button>
+
+
+        </form>
+
+        <!-- <form action="" mathod="post ">
             <input type="search" placeholder="Search here ...">
             <i class="fa-solid fa-magnifying-glass"></i>
-        </form>
+        </form> -->
 
 
     </header>
@@ -112,7 +130,7 @@ $conn->close();
                 <ul>
                     <li><a href="#home">Beranda</a></li>
                     <li><a href="#about">Tentang Kami</a></li>
-                    <li><a href="#recipes">Resep Populer</a></li>
+                    <li><a href="#popular-recipes">Resep Populer</a></li>
                     <li><a href="#contact">Kontak</a></li>
                 </ul>
             </div>

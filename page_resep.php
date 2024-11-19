@@ -51,8 +51,8 @@ $conn->close();
                 <?php echo $row["cara_membuat"] ?>
             <?php } ?>
         </ol>
-        <button><a href="http://localhost/makanan/Makanan/LandingPage.php">Kembali</a></button>
-        <!-- <button><a href="http://localhost/makanan/list_resep.php?kategori_nama=Masakan%20Indonesia&kategori_id=1">Kembali</a></button> -->
+        <!-- <button><a href="http://localhost/makanan/Makanan/LandingPage.php">Kembali</a></button> -->
+        <button><a href="http://localhost/makanan/list_resep.php?kategori_nama=Masakan%20Indonesia&kategori_id=1">Kembali</a></button>
         </main>
         </main>
     </main>

@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatibel" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Register Page</title>
 </head>
-<head>
 <body>
     <form method="post">
         <label for="">Nama</label>
@@ -34,9 +33,10 @@
         sudah memiliki akun? <a href="login.php">Login!</a>
     </form>
 
-    <?php
+    <?php 
+    include "koneksi.php";
     if(isset($_POST['register'])){
-        $name = $_POST['name'];
+        $name = $_POST['nama'];
         $username = $_POST['username'];
         $pwd = $_POST['password'];
         $umur = $_POST['umur'];
@@ -44,11 +44,13 @@
         $alamat = $_POST['alamat'];
 
 
-        $query = $koneksi->query("INSERT INTO tb_users(id, nama, username, password, umur, jk, alamat)VALUE('', '$name', '$username', '$pwd', '$umur', '$jk', '$alamat')");
+        // $query = $koneksi->query("INSERT INTO tb_users(id, nama, username, password, umur, jk, alamat)VALUE('', '$name', '$username', '$pwd', '$umur', '$jk', '$alamat')");
+        $query =$koneksi->query("INSERT INTO tb_users(id, nama, username, password, umur, jk, alamat)VALUE('', '$name', '$username', '$pwd', '$umur', '$jk', '$alamat')");
         if($query) {
             echo "<script>alert('Register Behasil!');window.location = 'login.php';</script>";
+        
         }else {
-            echo "<script>alert('Register Gagal!');window.location = 'login.php';</script>";
+            echo "<script>alert('Register Gagal!');window.location = 'register.php';</script>";
         }
     }
     ?>
