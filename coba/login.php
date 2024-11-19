@@ -7,17 +7,11 @@
     <title>Login Page</title>
 </head>
 <body>
-<<<<<<< HEAD
     <?php 
     session_start();
-    include"koneksi.php";?>
-
-=======
-    <?php
-    session_start();
     include "koneksi.php";
+
     ?>
->>>>>>> 68b984385d57dc901f56fe509bd7b55a128f8002
     <form method="post">
         <label for="">Username</label>
         <input type="text" name="username"><br>
@@ -28,7 +22,6 @@
         <button name="login" type="submit">Login</button>
         belim memiliki akun? <a href="register.php">Register!</a>
     </form>
-<<<<<<< HEAD
 
     <?PHP
         if(isset($_POST['login'])){
@@ -36,15 +29,11 @@
     $pwd = $_POST['password'];
 
     $qry = $koneksi->query("SELECT * FROM tb_users WHERE username='$name' AND password='$pwd'");
-=======
-    
-<?PHP
-if(isset($_POST['login'])){
-    $uname = $_POST['username'];
-    $pwd = $_POST['password'];
+    if(isset($_POST['login'])){
+        $uname = $_POST['username'];
+        $pwd = $_POST['password'];
 
     $qry = $koneksi->query("SELECT * FROM tb_users WHERE username='$uname' AND password='$pwd'");
->>>>>>> 68b984385d57dc901f56fe509bd7b55a128f8002
     $result = mysqli_num_rows($qry);
 
     if($result == 1){
@@ -54,11 +43,9 @@ if(isset($_POST['login'])){
         echo "<script>alert('Login Berhsil!');window.location='index.php';</script>";
     }else{
         echo "<script>alert('Login Gagal!');window.location='login.php';</script>";
+        }
     }
 }
-<<<<<<< HEAD
 ?>
-=======
->>>>>>> 68b984385d57dc901f56fe509bd7b55a128f8002
 </body>
 </html>
