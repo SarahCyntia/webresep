@@ -31,7 +31,7 @@ $conn->close();
     <main>
 
         <header>
-            <h1><?php echo $_GET["Masakan Internasional"]?></h1>
+            <h1><?php echo $_GET["kategori_nama"]?></h1>
         </header>
 
         <section id="Internasional">
@@ -40,7 +40,7 @@ $conn->close();
         ?>
             <div class="resep-card">
                 <h3><?php echo $row["nama_resep"]?> </h3> <br>
-                <img src="gambar/Resep-Spagetti-aglio-olio.jpg" alt="spaghetti-aglio e-olio"> <br>
+                <img src="<?php echo $row['image_resep'] ?>" alt=""> <br>
                 <a href="page_resep.php?nama_resep=<?php echo $row["nama_resep"]?>&resep_id=<?php echo $row["resep_id"]?>"<?php echo $row["nama_resep"]?> class="button">Lihat Resep</a>
             </div>
               <?php } ?>

@@ -12,22 +12,10 @@
         <input type="text" name="nama"><br>
 
         <label for="">Username</label>
-        <input type="text" name="username"><br>
+        <input type="email" name="username"><br>
 
         <label for="">Password</label>
-        <input type="text" name="password"><br>
-
-        <label for="">Umur</label>
-        <input type="number" name="umur"><br>
-
-        <label for="">Jeis kelamin</label>
-        <select name="jk">
-            <option value="L">Laki-laki</option>
-            <option value="P">Perempuan</option>
-        </select><br>
-
-        <label for="">Alamat</label>
-        <textarea name="alamat" rows="4"></textarea><br><br>
+        <input type="password" name="password"><br>
 
         <button name="register" type="submit">Register</button>
         sudah memiliki akun? <a href="login.php">Login!</a>
@@ -39,13 +27,9 @@
         $name = $_POST['nama'];
         $username = $_POST['username'];
         $pwd = $_POST['password'];
-        $umur = $_POST['umur'];
-        $jk = $_POST['jk'];
-        $alamat = $_POST['alamat'];
 
-
-        // $query = $koneksi->query("INSERT INTO tb_users(id, nama, username, password, umur, jk, alamat)VALUE('', '$name', '$username', '$pwd', '$umur', '$jk', '$alamat')");
-        $query =$koneksi->query("INSERT INTO tb_users(id, nama, username, password, umur, jk, alamat)VALUE('', '$name', '$username', '$pwd', '$umur', '$jk', '$alamat')");
+        // $query = $koneksi->query("INSERT INTO tb_users(id, nama, username, password)VALUE('', '$name', '$username', '$pwd')");
+        $query =$koneksi->query("INSERT INTO tb_users(id, nama, username, password)VALUE('', '$name', '$username', '$pwd')");
         if($query) {
             echo "<script>alert('Register Behasil!');window.location = 'login.php';</script>";
         

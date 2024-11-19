@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -15,16 +15,7 @@ $result = $conn->query($sql);
 
 $conn->close();
 
-
-// require 'functions.php';
-// $resep = query("SELECT * FROM resep");
-
-//tombol cari ditekan
-// if( isset($_POST["cari"]) ) {
-//     $resep = cari($_POST["keyword"]);
-
-// }
-// ?> -->
+?>
 
 <!DOCTYPE html>
 <html lang="id">
@@ -33,17 +24,24 @@ $conn->close();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resep Makanan Lezat.com</title>
     <link rel="stylesheet" href="LandingPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    
+<?php
+session_start();
+if(!$_SESSION['user']){
+    echo "<script>alert('silahkan Login!');window.location='login.php';<?script>";
+}
+?>
     <header>
         <nav>
             <a href="#home">Beranda</a>
             <a href="#popular-recipes">Resep</a>
             <a href="#tentangkami">Tentang Kami</a>
-            <a href="#Contact">Kontak</a>
+            <a href="#contact">Kontak</a>
         </nav>
-        <h2>Mau masak apa hari ini?</h2>
+        <h3>HAI! <?= $_SESSION['user']['nama'];?> Mau masak apa hari ini?</h3>
 
         <form action="" method="post">
 
@@ -82,7 +80,6 @@ $conn->close();
 
     <section id="home">
     <img src="LandingPage.jpg" alt="">
-
     <div class="content2">
         <h1>Resep<br><span>Makanan</span><br>Dapoer<span>Kita</span></h1>
         <p class="par">Kamu mau masak tapi bingung caranya? Atau bingung bahannya apa aja? <br>Tepat sekali! Web ini membantu kamu untuk mencari berbagai resep.
@@ -122,14 +119,14 @@ $conn->close();
     <footer>
         <div class="footer-container">
             <div class="footer-logo">
-                <h2>DeliciousBites</h2>
+                <h2>DapoerKita</h2>
                 <p>Temukan cita rasa terbaik di setiap gigitan</p>
             </div>
             <div class="footer-nav">
                 <h3>Menu</h3>
                 <ul>
                     <li><a href="#home">Beranda</a></li>
-                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#tentangkami">Tentang Kami</a></li>
                     <li><a href="#popular-recipes">Resep Populer</a></li>
                     <li><a href="#contact">Kontak</a></li>
                 </ul>
@@ -142,15 +139,17 @@ $conn->close();
             <div class="footer-social">
                 <h3>Ikuti Kami</h3>
                 <div class="social-icons">
-                    <a href="#" target="_blank" class="social-icon facebook"></a>
-                    <a href="#" target="_blank" class="social-icon instagram"></a>
-                    <a href="#" target="_blank" class="social-icon twitter"></a>
+                    <a href="#" target="_blank" class="social-icon facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" target="_blank" class="social-icon instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" target="_blank" class="social-icon twitter"><i class="fa-brands fa-twitter"></i></a>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 DeliciousBites. All rights reserved.</p>
+            <p>&copy; 2024 DapoerKita. All rights reserved.</p>
         </div>
+
+        <button><a href="/makanan/coba/logout.php">logout</a></button>
     </footer>
 
     <script src="LandingPage.js"></script>

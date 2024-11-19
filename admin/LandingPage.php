@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Web Resep Makanan</title>
+    <link rel="stylesheet" href="LandingPage.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Admin Panel</h2>
+        <ul>
+            <li><a href="add_resep.html">Tambah Resep</a></li>
+            <li><a href="manage_recipes.php">Kelola Resep</a></li>
+            <li><a href="manage_categories.php">Kelola Kategori</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <h1>Selamat datang, Admin!</h1>
+        <!-- Konten Admin akan ditampilkan di sini -->
+    </div>
+</body>
+</html>

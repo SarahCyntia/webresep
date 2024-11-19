@@ -29,6 +29,8 @@ header {
     padding: 20px 30px 20px 40px;
     text-align: center;
 }
+
+
 header nav {
     display: flex;
     justify-content: flex-end;
@@ -348,4 +350,23 @@ footer {
     .social-icons {
         justify-content: center;
     }
+}
+
+button-footer {
+    background-color: #c44646;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button-footer a {
+    color: white;
+    text-decoration: none;
+}
+button-footer a:hover {
+    color: black;
 }

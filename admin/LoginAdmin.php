@@ -143,7 +143,6 @@ a:hover {
         <input type="password" name="password"><br>
 
         <button name="login" type="submit">Login</button>
-        belim memiliki akun? <a href="register.php">Register!</a>
     </form>
 
     <?PHP
@@ -151,14 +150,14 @@ a:hover {
     $name = $_POST['username'];
     $pwd = $_POST['password'];
 
-    $qry = $koneksi->query("SELECT * FROM tb_users WHERE username='$name' AND password='$pwd'");
+    $qry = $koneksi->query("SELECT * FROM admin WHERE email='$name' AND password='$pwd'");
     $result = mysqli_num_rows($qry);
 
     if($result == 1){
         $data = $qry->fetch_assoc();
 
         $_SESSION['user'] = $data;
-        header("Location:/makanan/Makanan/LandingPage.php");
+        header("Location:/makanan/admin/LandingPage.html");
     }
 }
 
