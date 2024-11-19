@@ -7,6 +7,10 @@
     <title>Login Page</title>
 </head>
 <body>
+    <?php
+    session_start();
+    include "koneksi.php";
+    ?>
     <form method="post">
         <label for="">Username</label>
         <input type="text" name="username"><br>
@@ -17,5 +21,23 @@
         <button name="submit" type="submit">Login</button>
         belim memiliki akun? <a href="register.php">Register!</a>
     </form>
+    
+<?PHP
+if(isset($_POST['login'])){
+    $uname = $_POST['username'];
+    $pwd = $_POST['password'];
+
+    $qry = $koneksi->query("SELECT * FROM tb_users WHERE username='$uname' AND password='$pwd'");
+    $result = mysqli_num_rows($qry);
+
+    if($result == 1){
+        $data = $qry->fetch_assoc();
+
+        $_SESSION['user'] = $data;
+        echo "<script>alert('Login Berhsil!');window.location='index.php';</script>";
+    }else{
+        echo "<script>alert('Login Gagal!');window.location='login.php';</script>";
+    }
+}
 </body>
 </html>
