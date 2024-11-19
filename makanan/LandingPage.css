@@ -30,7 +30,6 @@ header {
     text-align: center;
 }
 
-
 header nav {
     display: flex;
     justify-content: flex-end;
@@ -49,8 +48,8 @@ header nav a:hover {
 
 img {
     position: absolute;
-    width: 270px;
-    height: 370px;
+    width: 340px;
+    height: 270px;
     right: 140px;
     top: 250px;
 }
@@ -350,23 +349,4 @@ footer {
     .social-icons {
         justify-content: center;
     }
-}
-
-button-footer {
-    background-color: #c44646;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 15px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 20px;
-}
-
-button-footer a {
-    color: white;
-    text-decoration: none;
-}
-button-footer a:hover {
-    color: black;
 }
