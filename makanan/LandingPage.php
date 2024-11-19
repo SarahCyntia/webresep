@@ -118,8 +118,8 @@ $conn->close();
             </div>
             <div class="footer-contact">
                 <h3>Kontak Kami</h3>
-                <p>Email: support@deliciousbites.com</p>
-                <p>Telepon: 123-456-7890</p>
+                <p>Email: DapoerKita@gmail.com</p>
+                <p>WhatApp: +6281231365656</p>
             </div>
             <div class="footer-social">
                 <h3>Ikuti Kami</h3>

@@ -1,6 +1,6 @@
 <?php
 $servername = "localhost:3306";
-$database = "makanan";
+$database = "web_makanan";
 $username = "root";
 $password = "";
 
