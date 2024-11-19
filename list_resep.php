@@ -31,7 +31,7 @@ $conn->close();
     <main>
 
         <header>
-            <h1><?php echo $_GET["kategori_nama"]?></h1>
+            <h1><?php echo $_GET["Masakan Internasional"]?></h1>
         </header>
 
         <section id="Internasional">

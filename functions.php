@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
 // koneksi ke database
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -19,4 +19,5 @@ function cari($keyword) {
             nama_resep  ='$keyword'
             ";
     return query($query)
-}
+} 
+?>
