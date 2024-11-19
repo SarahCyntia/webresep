@@ -142,24 +142,25 @@ a:hover {
         <label for="">Password</label>
         <input type="password" name="password"><br>
 
-        <button name="login" type="submit">Login</button>
-        belim memiliki akun? <a href="register.php">Register!</a>
+        <button name="submit" type="submit">Login</button>
+        belum memiliki akun? <a href="register.php">Register!</a>
     </form>
 
     <?PHP
-        if(isset($_POST['login'])){
+    if(isset($_POST['submit'])){
     $name = $_POST['username'];
     $pwd = $_POST['password'];
 
-    $qry = $koneksi->query("SELECT * FROM tb_users WHERE username='$name' AND password='$pwd'");
+    $qry = $koneksi->query("SELECT * FROM tb_users WHERE username= '$name' AND password= '$pwd'");
     $result = mysqli_num_rows($qry);
 
-    if($result == 1){
+    if($result == 1) {
         $data = $qry->fetch_assoc();
-
         $_SESSION['user'] = $data;
-        header("Location:/makanan/Makanan/LandingPage.php");
-    }
+
+        header('Location:/makanan/Makanan/LandingPage.php');
+
+    }echo "<script>alert('Username atau Password salah!');</script>";
 }
 
 ?>

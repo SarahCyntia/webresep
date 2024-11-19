@@ -52,7 +52,7 @@ $conn->close();
             <?php } ?>
         </ol>
         <!-- <button><a href="http://localhost/makanan/Makanan/LandingPage.php">Kembali</a></button> -->
-        <button><a href="http://localhost/makanan/list_resep.php?kategori_nama=Masakan%20Indonesia&kategori_id=1">Kembali</a></button>
+        <button><a href="<button><a href='/webResep/list_resep.php?kategori_nama=<?php echo $row["kategori_nama"] ?>&kategory_id=<?php echo $row["kategori_id"] ?>'>Kembali</a></button>">Kembali</a></button>
         </main>
         </main>
     </main>

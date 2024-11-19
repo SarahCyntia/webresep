@@ -10,9 +10,9 @@
     <div class="sidebar">
         <h2>Admin Panel</h2>
         <ul>
-            <li><a href="add_resep.html">Tambah Resep</a></li>
-            <li><a href="manage_recipes.php">Kelola Resep</a></li>
-            <li><a href="manage_categories.php">Kelola Kategori</a></li>
+            <li><a href="add_resep.php">Tambah Resep</a></li>
+            <li><a href="kelola_resep.php">Kelola Resep</a></li>
+            <li><a href="kelola_kategori.php">Kelola Kategori</a></li>
         </ul>
     </div>
 

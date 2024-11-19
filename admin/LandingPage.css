@@ -1,17 +1,89 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757;
+    padding-left: 10px;
+}
+
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+}
+
+.main-content h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+} */
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     display: flex;
 }
 
 .sidebar {
-    width: 200px;
-    background-color: #2c3e50;
+    width: 250px;
+    background-color: #333;
     color: white;
     padding: 20px;
+    position: fixed;
+    height: 100%;
+    box-sizing: border-box;
 }
 
 .sidebar h2 {
     text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
 }
 
 .sidebar ul {
@@ -19,20 +91,80 @@ body {
     padding: 0;
 }
 
+.sidebar ul li {
+    margin: 10px 0;
+}
+
 .sidebar ul li a {
     color: white;
     text-decoration: none;
-    display: block;
     padding: 10px;
-    margin: 5px 0;
-    background-color: #34495e;
+    display: block;
+    border-radius: 5px;
 }
 
 .sidebar ul li a:hover {
-    background-color: #1abc9c;
+    background-color: #444;
 }
 
 .main-content {
-    flex: 1;
+    margin-left: 260px;  /* Sidebar width */
     padding: 20px;
+    width: calc(100% - 260px);  /* Responsive content width */
+}
+
+/* Styling the Boxed Layout */
+.box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.box h3 {
+    color: #333;
+}
+
+.box table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.box table, .box th, .box td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.box th {
+    background-color: #f4f4f4;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a.button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+a.button:hover {
+    background-color: #0056b3;
 }

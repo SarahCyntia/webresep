@@ -6,7 +6,7 @@ $koneksi = mysqli_connect('localhost', 'root', '', 'web_makanan');
 $host = 'localhost';
 $user = 'root';
 $password = '';
-$dbname = 'makanan';
+$dbname = 'web_makanan';
 
 // Koneksi ke database
 $conn = new mysqli($host, $user, $password, $dbname);

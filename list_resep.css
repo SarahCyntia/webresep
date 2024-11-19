@@ -10,7 +10,7 @@ body, h2, h3, img, button {
 body {
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.6;
-    background-color: rgb(245, 182, 182);
+    background-color: rgb(255, 255, 255);
     color: #333; /*warna makanan */
     padding: 20px;
 }
@@ -18,7 +18,7 @@ body {
 /* Main content styling */
 main {
     width: 800px;
-    height: 1000px;
+    height: 3000px;
     margin: auto;
     background: rgb(249, 245, 245);
     padding-right: 80px;

@@ -41,15 +41,18 @@ if(!$_SESSION['user']){
             <a href="#tentangkami">Tentang Kami</a>
             <a href="#contact">Kontak</a>
         </nav>
-        <h3>HAI! <?= $_SESSION['user']['nama'];?> Mau masak apa hari ini?</h3>
+        <h3>HAI! <?= $_SESSION['user']['nama'];?> mau masak apa hari ini?</h3>
 
-        <form action="" method="post">
+        <form action="search.php" method="POST">
+                <input type="search" placeholder="Search here ..." name="search">
+                <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                <button type="submit">search</button>
+   </form>
 
+        <!-- <form action="" method="post">
             <input type="text" name="keyword" size="40" autofocus placeholder="masukan keyword pencarian..." autocomplete="off">
             <button type="submit" name="cari"> Cari!</button>
-
-
-        </form>
+        </form> -->
 
         <!-- <form action="" mathod="post ">
             <input type="search" placeholder="Search here ...">
