@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -15,16 +15,7 @@ $result = $conn->query($sql);
 
 $conn->close();
 
-
-// require 'functions.php';
-// $resep = query("SELECT * FROM resep");
-
-//tombol cari ditekan
-// if( isset($_POST["cari"]) ) {
-//     $resep = cari($_POST["keyword"]);
-
-// }
-// ?> -->
+?>
 
 <!DOCTYPE html>
 <html lang="id">
@@ -49,7 +40,7 @@ $conn->close();
 
             <input type="text" name="keyword" size="40" autofocus placeholder="masukan keyword pencarian..." autocomplete="off">
             <button type="submit" name="cari"> Cari!</button>
-
+            <div id="search-result"></div> <!-- Tempat hasil pencarian muncul -->
 
         </form>
 
@@ -122,7 +113,7 @@ $conn->close();
     <footer>
         <div class="footer-container">
             <div class="footer-logo">
-                <h2>DeliciousBites</h2>
+                <h2>DapoerKita</h2>
                 <p>Temukan cita rasa terbaik di setiap gigitan</p>
             </div>
             <div class="footer-nav">
@@ -149,7 +140,7 @@ $conn->close();
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 DeliciousBites. All rights reserved.</p>
+            <p>&copy; 2024 DapoerKita. All rights reserved.</p>
         </div>
     </footer>
 
