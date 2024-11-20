@@ -55,7 +55,13 @@ if(!$_SESSION['user']){
         <!-- <form action="" method="post">
             <input type="text" name="keyword" size="40" autofocus placeholder="masukan keyword pencarian..." autocomplete="off">
             <button type="submit" name="cari"> Cari!</button>
+<<<<<<< HEAD
         </form> -->
+=======
+            <div id="search-result"></div> <!-- Tempat hasil pencarian muncul -->
+
+        </form>
+>>>>>>> e6bb6037255187db67c35e5068b5a8674c35e62a
 
         <!-- <form action="" mathod="post ">
             <input type="search" placeholder="Search here ...">

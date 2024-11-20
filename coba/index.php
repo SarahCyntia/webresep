@@ -7,3 +7,6 @@ if(!$_SESSION['user']){
 
 <h1>HAI! <?= $_SESSION['user']['nama'];?> Selamat Datang </h1>
 <a href="logout.php">logout</a>
+
+<a href="logout.php">logout</a>
+
