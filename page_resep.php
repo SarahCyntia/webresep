@@ -49,7 +49,7 @@ $conn->close();
             <h4>Cara Membuat</h4>
             <ol>
                 <?php echo $row["cara_membuat"] ?>
-                <!-- echo <button><a href="<button><a href='/makanan/list_resep.php?kategori_nama=<?php echo $row["kategori_nama"] ?>&kategori_id=<?php echo $row["kategori_id"] ?>'>Kembali</a></button>">Kembali</a></button> -->
+                <!-- <button><a href="<button><a href='/makanan/Makanan/list_resep.php?kategori_nama=<?php echo $row["kategori_nama"] ?>&kategori_id=<?php echo $row["kategori_id"] ?>'>Kembali</a></button>">Kembali</a></button> -->
             <?php } ?>
         </ol>
         <button><a href="http://localhost/makanan/Makanan/LandingPage.php">Kembali</a></button>

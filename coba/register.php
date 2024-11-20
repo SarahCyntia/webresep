@@ -141,7 +141,7 @@ a:hover {
 </head>
 <body>
     <form method="post">
-        <label for="">Nama</label>
+        <label for="">email</label>
         <input type="text" name="nama"><br>
 
         <label for="">Username</label>

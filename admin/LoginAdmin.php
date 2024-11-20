@@ -157,7 +157,7 @@ a:hover {
         $data = $qry->fetch_assoc();
 
         $_SESSION['user'] = $data;
-        header("Location:/makanan/admin/LandingPage.html");
+        header("Location: LandingPage.php");
     }
 }
 

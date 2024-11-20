@@ -23,6 +23,7 @@ $conn->close();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resep Makanan Lezat.com</title>
+    <link rel="icon" type="image/x-icon" href="Makanan/logo.ico">
     <link rel="stylesheet" href="LandingPage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -40,6 +41,8 @@ if(!$_SESSION['user']){
             <a href="#popular-recipes">Resep</a>
             <a href="#tentangkami">Tentang Kami</a>
             <a href="#contact">Kontak</a>
+            <!-- <button><a href="/makanan/coba/logout.php">logout</a></button> -->
+            <button><a href="/makanan/coba/login.php" target="_blank" class="social-icon facebook"><i class="fa-solid fa-user"></i></a></button>
         </nav>
         <h3>HAI! <?= $_SESSION['user']['nama'];?> mau masak apa hari ini?</h3>
 
@@ -137,13 +140,13 @@ if(!$_SESSION['user']){
             <div class="footer-contact">
                 <h3>Kontak Kami</h3>
                 <p>Email: DapoerKita@gmail.com</p>
-                <p>WhatApp: +6281231365656</p>
+                <p>WhatApp: <a href ="https://wa.me/+62 812-3136-5656">+62 812-3136-5656</a></p>
             </div>
             <div class="footer-social">
                 <h3>Ikuti Kami</h3>
                 <div class="social-icons">
                     <a href="#" target="_blank" class="social-icon facebook"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#" target="_blank" class="social-icon instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/dapoer.kita11/" target="_blank" class="social-icon instagram"><i class="fa-brands fa-instagram"></i></a>
                     <a href="#" target="_blank" class="social-icon twitter"><i class="fa-brands fa-twitter"></i></a>
                 </div>
             </div>
@@ -152,7 +155,7 @@ if(!$_SESSION['user']){
             <p>&copy; 2024 DapoerKita. All rights reserved.</p>
         </div>
 
-        <button><a href="/makanan/coba/logout.php">logout</a></button>
+        <!-- <button><a href="/makanan/coba/logout.php">logout</a></button> -->
     </footer>
 
     <script src="LandingPage.js"></script>

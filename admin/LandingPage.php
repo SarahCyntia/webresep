@@ -19,6 +19,8 @@
     <div class="main-content">
         <h1>Selamat datang, Admin!</h1>
         <!-- Konten Admin akan ditampilkan di sini -->
-    </div>
+    </div><br>
+
+    <button><a href="/makanan/admin/LogoutAdmin.php">logout</a></button>
 </body>
 </html>

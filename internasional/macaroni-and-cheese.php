@@ -32,7 +32,7 @@ session_start();
             <li>Tambahkan parutan keju cheddar dan parmesan, garam, gula, serta lada dalam panci.</li>
             <li>Tuangkan makaroni yang sudah disisihkan ke dalam wajan, aduk rata.</li>
         </ol>
-        <button><a href="internasional.php">Kembali</a></button>
+        <button><a href="/makanan/internasional.php">Kembali</a></button>
     </main>
 </body>
 </html>
