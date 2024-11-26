@@ -42,26 +42,25 @@ if(!$_SESSION['user']){
             <a href="#tentangkami">Tentang Kami</a>
             <a href="#contact">Kontak</a>
             <!-- <button><a href="/makanan/coba/logout.php">logout</a></button> -->
-            <button><a href="/makanan/coba/login.php" target="_blank" class="social-icon facebook"><i class="fa-solid fa-user"></i></a></button>
+            <!-- <button><a href="/makanan/coba/login.php" target="_blank" class="social-icon facebook"><i class="fa-solid fa-user"></i></a></button> -->
+            <a href="/makanan/coba/login.php" target="_blank" class="social-icon facebook"><i class="fa-solid fa-user"></i></a>
         </nav>
         <h3>HAI! <?= $_SESSION['user']['nama'];?> mau masak apa hari ini?</h3>
 
-        <form action="search.php" method="POST">
+        <form action="list_resep.php" method="POST">
                 <input type="search" placeholder="Search here ..." name="search">
                 <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
                 <button type="submit">search</button>
-   </form>
+        </form>
 
         <!-- <form action="" method="post">
             <input type="text" name="keyword" size="40" autofocus placeholder="masukan keyword pencarian..." autocomplete="off">
             <button type="submit" name="cari"> Cari!</button>
-<<<<<<< HEAD
         </form> -->
-=======
+
             <div id="search-result"></div> <!-- Tempat hasil pencarian muncul -->
 
         </form>
->>>>>>> e6bb6037255187db67c35e5068b5a8674c35e62a
 
         <!-- <form action="" mathod="post ">
             <input type="search" placeholder="Search here ...">

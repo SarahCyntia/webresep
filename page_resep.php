@@ -11,7 +11,7 @@ if ($conn->connect_error) {
 }
 
 $tmp=$_GET["resep_id"];
-$sql = "SELECT*FROM resep WHERE resep_id= $tmp";
+$sql = "SELECT*FROM resep LEFT JOIN kategori ON resep.kategori_id = kategori.kategori_id WHERE resep_id= $tmp";
 $result = $conn->query($sql);
 
 $conn->close();
@@ -49,10 +49,11 @@ $conn->close();
             <h4>Cara Membuat</h4>
             <ol>
                 <?php echo $row["cara_membuat"] ?>
-                <!-- <button><a href="<button><a href='/makanan/Makanan/list_resep.php?kategori_nama=<?php echo $row["kategori_nama"] ?>&kategori_id=<?php echo $row["kategori_id"] ?>'>Kembali</a></button>">Kembali</a></button> -->
+                <button><a
+                        href='/makanan/list_resep.php?kategori_nama=<?php echo $row["kategori_nama"] ?>&kategori_id=<?php echo $row["kategori_id"] ?>'>Kembali</a></button>
             <?php } ?>
         </ol>
-        <button><a href="http://localhost/makanan/Makanan/LandingPage.php">Kembali</a></button>
+        <!-- <button><a href="http://localhost/makanan/Makanan/LandingPage.php">Kembali</a></button> -->
         <!-- <button><a href="<button><a href='/makanan/list_resep.php?kategori_nama=<?php echo $row["kategori_nama"] ?>&kategori_id=<?php echo $row["kategori_id"] ?>'>Kembali</a></button>">Kembali</a></button> -->
         </main>
         </main>

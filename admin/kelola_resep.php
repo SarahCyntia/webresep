@@ -4,18 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kelola Resep</title>
-    <link rel="stylesheet" href="LandingPage.css">
+    <link rel="stylesheet" href="add_resep.css">
 </head>
 <body>
-    <div class="sidebar">
-        <h2>Admin Panel</h2>
-        <ul>
-            <li><a href="add_resep.php">Tambah Resep</a></li>
-            <li><a href="manage_recipes.php">Kelola Resep</a></li>
-            <li><a href="manage_categories.php">Kelola Kategori</a></li>
-        </ul>
-    </div>
-
     <div class="main-content">
         <h1>Kelola Resep</h1>
         <div class="box">
@@ -48,5 +39,6 @@
             </table>
         </div>
     </div>
+    <button><a href="/makanan/admin/LandingPage.php">Kembali</a></button>
 </body>
 </html>

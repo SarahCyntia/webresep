@@ -136,8 +136,8 @@ a:hover {
     ?>
 
     <form method="post">
-        <label for="">Username</label>
-        <input type="email" name="username"><br>
+        <label for="">Email</label>
+        <input type="email" name="email"><br>
 
         <label for="">Password</label>
         <input type="password" name="password"><br>
@@ -147,7 +147,7 @@ a:hover {
 
     <?PHP
         if(isset($_POST['login'])){
-    $name = $_POST['username'];
+    $name = $_POST['email'];
     $pwd = $_POST['password'];
 
     $qry = $koneksi->query("SELECT * FROM admin WHERE email='$name' AND password='$pwd'");
@@ -158,7 +158,7 @@ a:hover {
 
         $_SESSION['user'] = $data;
         header("Location: LandingPage.php");
-    }
+    }echo "<script>alert('Email atau Password salah!');</script>";
 }
 
 ?>

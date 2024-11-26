@@ -1,3 +1,11 @@
+<?php
+include 'koneksi.php';  // Menghubungkan dengan file koneksi
+
+// Query untuk mengambil semua kategori
+$sql = "SELECT * FROM kategori";
+$result = $conn->query($sql);
+?>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -30,23 +38,27 @@
                 </thead>
                 <tbody>
                     <?php
-                    // Simulated Database Query to fetch categories
-                    $categories = [
-                        ['id' => 1, 'name' => 'Makanan Utama'],
-                        ['id' => 2, 'name' => 'Cemilan'],
-                        ['id' => 3, 'name' => 'Minuman']
-                    ];
-                    foreach ($categories as $category) {
-                        echo "<tr>
-                                <td>{$category['id']}</td>
-                                <td>{$category['name']}</td>
-                                <td><a href='#' class='button'>Edit</a> <a href='#' class='button'>Hapus</a></td>
-                              </tr>";
+                    if ($result->num_rows > 0) {
+                        // Menampilkan data kategori
+                        while ($row = $result->fetch_assoc()) {
+                            echo "<tr>
+                                    <td>{$row['kategori_id']}</td>
+                                    <td>{$row['kategori_nama']}</td>
+                                    <td><a href='editkategori.php?id={$row['kategori_id']}' class='button'>Edit</a> <a href='hapuskategori.php?id={$row['kategori']}' class='button'>Hapus</a></td>
+                                  </tr>";
+                        }
+                    } else {
+                        echo "<tr><td colspan='3'>Tidak ada kategori ditemukan</td></tr>";
                     }
                     ?>
                 </tbody>
             </table>
         </div>
     </div>
+
 </body>
 </html>
+
+<?php
+$conn->close();  // Menutup koneksi database
+?>

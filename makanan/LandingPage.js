@@ -24,3 +24,13 @@ window.onclick = function(event) {
         }
     }
 }
+
+// JavaScript untuk memanipulasi data pengguna dan logout
+document.getElementById("username").innerText = localStorage.getItem("username") || "Pengguna";  // Mengambil nama pengguna dari localStorage
+
+function logout() {
+    // Menghapus data pengguna dari localStorage dan mengarahkan ke halaman login
+    localStorage.removeItem("username");
+    alert("Anda telah logout!");
+    window.location.href = "/makanan/coba/login.php";  // Sesuaikan dengan halaman login Anda
+}

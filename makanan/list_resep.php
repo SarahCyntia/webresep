@@ -3,6 +3,7 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "web_makanan";
+$tbname = "kategori";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection

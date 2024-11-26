@@ -26,7 +26,7 @@ $conn->close();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resep Makanan Internasional</title>
-    <link rel="stylesheet" href="lis_recipe.css">
+    <link rel="stylesheet" href="list_resep.css">
 </head>
 
 <body>

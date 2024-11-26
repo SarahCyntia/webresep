@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="LandingPage.css">
 </head>
 <body>
+    <div class="box"></div>
     <div class="sidebar">
         <h2>Admin Panel</h2>
         <ul>
             <li><a href="add_resep.php">Tambah Resep</a></li>
             <li><a href="kelola_resep.php">Kelola Resep</a></li>
             <li><a href="kelola_kategori.php">Kelola Kategori</a></li>
+            <button><a href="/makanan/admin/LogoutAdmin.php">logout</a></button>
         </ul>
     </div>
 
@@ -21,6 +23,7 @@
         <!-- Konten Admin akan ditampilkan di sini -->
     </div><br>
 
-    <button><a href="/makanan/admin/LogoutAdmin.php">logout</a></button>
+    <!-- <button><a href="/makanan/admin/LogoutAdmin.php">logout</a></button> -->
+
 </body>
 </html>
